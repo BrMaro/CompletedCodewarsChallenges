@@ -12,7 +12,7 @@ Examples
 
 FUNDAMENTALS"""
 from collections import Counter
-
+import timeit
 
 def find_it(seq):
     if len(seq) == 1:
@@ -26,3 +26,4 @@ def find_it(seq):
 
 
 print(find_it([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]))
+
