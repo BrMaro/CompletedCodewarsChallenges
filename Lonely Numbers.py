@@ -22,8 +22,7 @@ All tests will include positive integers.
 
 from itertools import groupby
 def numbers_need_friends_too(num_string):
-    num_string = str(num_string)
-    num_list = [''.join(group) for _, group in groupby(num_string)]
+    num_list = [''.join(group) for _, group in groupby(str(num_string))]
     for i in range(len(num_list)):
         if len(num_list[i])==1:
             num_list[i] = num_list[i]*3
