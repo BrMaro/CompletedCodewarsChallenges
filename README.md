@@ -1,4 +1,4 @@
-# CompletedCodewarsChallenges
+# Completed Codewars  Challenges
 
 This repository contains my solutions to various Codewars challenges. Codewars is a platform where developers can train on coding challenges known as kata.
 
